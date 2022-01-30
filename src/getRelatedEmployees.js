@@ -9,3 +9,7 @@ function getRelatedEmployees(managerId) {
 }
 
 module.exports = { isManager, getRelatedEmployees };
+
+const algo = data.employees;
+// const filtro = (manager) => algo.filter([manager]);
+algo.forEach((employers, current) => console.log(employers));
