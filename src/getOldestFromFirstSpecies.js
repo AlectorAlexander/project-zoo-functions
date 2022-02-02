@@ -13,9 +13,7 @@ function getOldestFromFirstSpecies(id) {
     return sorte;
   };
   const resultado = animal.reduce(godBless);
-  return Object.values(resultado)
+  return Object.values(resultado);
 }
-const burlId = '0e7b460e-acf4-4e17-bcb3-ee472265db83';
-console.log(getOldestFromFirstSpecies(burlId));
 
 module.exports = getOldestFromFirstSpecies;

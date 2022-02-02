@@ -1,5 +1,5 @@
 const data = require('../data/zoo_data');
-
+// Referência: a pergunta do Gustavo Ellwanger - 16A, feita no Slack, me ajudou nesse requisito.
 const { species, hours } = data;
 const days = Object.keys(hours);
 const closedDay = {
@@ -29,6 +29,7 @@ const Days = (dia) => {
 
   return diaEscolhido;
 };
+
 const allDays = () => {
   const week = {};
   days.forEach((day) => {
